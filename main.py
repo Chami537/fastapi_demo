@@ -18,3 +18,12 @@ def hello(name: str):
     return {
         "message": f"Hello, {name}!"
     }
+
+@app.get("/server")
+def server():
+    return{
+        "server":"Alibaba Cloud",
+        "deployed_with":"Docker",
+        "status":"online"
+
+    }
