@@ -1,0 +1,7 @@
+services:
+  fastapi:
+    build: .
+    container_name: fastapi-demo
+    restart: always
+    ports:
+      - "8000:8000"
