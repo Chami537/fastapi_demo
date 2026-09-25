@@ -27,3 +27,9 @@ def server():
         "status":"online"
 
     }
+
+@app.get("/xubi")
+def xubi():
+    return {
+        "xubi":"xubimeiyouma"
+    }
